@@ -4,9 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arcium Shadow DEX Pool</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="./index.ts"></script>
+    <header>
+      <h1>Arcium Shadow DEX Pool</h1>
+      <p>Trade privately with encrypted liquidity pools.</p>
+    </header>
+
+    <main>
+      <section class="status">
+        <p>Encrypted Compute: <span class="active">ACTIVE ✅</span></p>
+        <button id="connect">Connect Wallet</button>
+      </section>
+
+      <section class="pool">
+        <h2>Pool Activity</h2>
+        <p>All transactions are privately computed using Arcium.</p>
+        <button id="simulate">Simulate Private Transaction</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built for the Arcium x Solana Hackathon — by
+        <a href="https://x.com/Senseii_ciel" target="_blank">@Senseii_ciel</a> |
+        <a href="https://github.com/ozzy-sensei" target="_blank">GitHub</a> |
+        <a href="https://discord.com/users/1305099867126759516" target="_blank">Discord</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
